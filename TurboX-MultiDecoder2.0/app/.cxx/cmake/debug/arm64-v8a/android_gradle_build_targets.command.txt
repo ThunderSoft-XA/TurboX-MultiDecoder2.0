@@ -1,0 +1,17 @@
+Executable : /home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a
+BasicUsageEnvironment
+RtspClient
+RtspClientJni
+UsageEnvironment
+affinitylib
+bitmaputil
+groupsock
+liveMedia
+yuv_shared
+yuvconvert
+yuvutil
+jvmArgs : 
+

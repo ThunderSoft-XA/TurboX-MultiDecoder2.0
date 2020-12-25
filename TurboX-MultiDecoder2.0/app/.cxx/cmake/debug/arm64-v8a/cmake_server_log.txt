@@ -1,0 +1,647 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app",
+  "buildDirectory": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_CXX_FLAGS\u003d-std\u003dc++11 -frtti -fexceptions",
+    "-DCMAKE_FIND_ROOT_PATH\u003d/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/prefab/arm64-v8a/prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/home/yuandekun/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/home/yuandekun/Android/Sdk/ndk/21.0.6113669",
+    "-DANDROID_PLATFORM\u003dandroid-27",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_NDK\u003d/home/yuandekun/Android/Sdk/ndk/21.0.6113669",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/build/intermediates/cmake/debug/obj/arm64-v8a",
+    "-DCMAKE_MAKE_PROGRAM\u003d/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d27",
+    "-DANDROID_STL\u003dc++_static",
+    "-DANDROID_TOOLCHAIN\u003dclang"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: Check for working C compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":96,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":126,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":155,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":184,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: Check for working CXX compiler: /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -- works
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":211,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":237,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":262,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":287,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":311,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":334,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":356,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":377,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) ","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) 
+CMAKE SERVER: Could NOT find JPEG (missing: JPEG_LIBRARY JPEG_INCLUDE_DIR) 
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning (dev) at src/main/cpp/libyuv/libyuv/CMakeLists.txt:45 (if):\n  Policy CMP0064 is not set: Support new TEST if() operator.  Run \"cmake\n  --help-policy CMP0064\" for policy details.  Use the cmake_policy command to\n  set the policy and suppress this warning.\n\n  TEST will be interpreted as an operator when the policy is set to NEW.\n  Since the policy is not set the OLD behavior will be used.\nThis warning is for project developers.  Use -Wno-dev to suppress it.\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning (dev) at /home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CMakeLists.txt:45 (if):
+  Policy CMP0064 is not set: Support new TEST if() operator.  Run "cmake
+  --help-policy CMP0064" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  TEST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMAKE SERVER: CMake Warning (dev) at /home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CMakeLists.txt:45 (if):
+  Policy CMP0064 is not set: Support new TEST if() operator.  Run "cmake
+  --help-policy CMP0064" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  TEST will be interpreted as an operator when the policy is set to NEW.
+  Since the policy is not set the OLD behavior will be used.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Building ver.: 0.0.1662","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Building ver.: 0.0.1662
+CMAKE SERVER: Building ver.: 0.0.1662
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Packaging for: amd-64","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Packaging for: amd-64
+CMAKE SERVER: Packaging for: amd-64
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":398,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":418,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":438,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":456,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":474,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":492,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":509,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":909,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":918,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":927,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":936,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":945,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":954,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":963,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":972,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":981,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":990,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":90,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":181,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":272,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":363,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":454,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":545,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":636,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":727,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":818,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":909,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindJPEG.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/FindPackageMessage.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CPack.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CPackComponent.cmake","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Templates/CPackConfig.cmake.in","../../../../Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Templates/CPackConfig.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../../Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake","../../../../Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake","../../../../Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake","src/main/cpp/libbitmap/CMakeLists.txt","src/main/cpp/libyuv/CMakeLists.txt","src/main/cpp/libyuv/libyuv/CMakeLists.txt","src/main/cpp/libyuv/libyuv/CM_linux_packages.cmake","src/main/cpp/BasicUsageEnvironment/CMakeLists.txt","src/main/cpp/groupsock/CMakeLists.txt","src/main/cpp/liveMedia/CMakeLists.txt","src/main/cpp/UsageEnvironment/CMakeLists.txt","src/main/cpp/RtspClient/CMakeLists.txt","src/main/jni/CMakeLists.txt","src/main/cpp/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":[".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeSystem.cmake",".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.c",".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCCompiler.cmake",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/arm64-v8a/CMakeFiles/feature_tests.cxx",".cxx/cmake/debug/arm64-v8a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a","name":"Project","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app","targets":[{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libaffinitylib.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["affinitylib_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["src/main/cpp/Affinity/AffinityC.cpp"]}],"fullName":"libaffinitylib.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so -latomic -lm","linkerLanguage":"CXX","name":"affinitylib","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libbitmaputil.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libbitmap","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["bitmaputil_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["BitmapJni.cpp"]}],"fullName":"libbitmaputil.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so -ljnigraphics -latomic -lm","linkerLanguage":"CXX","name":"bitmaputil","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libbitmap","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuvutil.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["yuvutil_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["YuvConvert.cpp","YuvJni.cpp"]}],"fullName":"libyuvutil.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so build/libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvutil","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/libyuv.a"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_dspr2.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_dspr2.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_dspr2.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.a","linkerLanguage":"CXX","name":"yuv","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuv.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["yuv_shared_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_dspr2.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_dspr2.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_dspr2.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"yuv_shared","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/yuvconvert"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIE  ","includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["util/yuvconvert.cc"]}],"fullName":"yuvconvert","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections","linkLanguageFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info","linkLibraries":"libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvconvert","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"EXECUTABLE"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/BasicUsageEnvironment","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["BasicUsageEnvironment_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/../groupsock/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/../UsageEnvironment/include"}],"isGenerated":false,"language":"CXX","sources":["BasicHashTable.cpp","BasicTaskScheduler.cpp","BasicTaskScheduler0.cpp","BasicUsageEnvironment.cpp","BasicUsageEnvironment0.cpp","DelayQueue.cpp","../UsageEnvironment/HashTable.cpp","../UsageEnvironment/strDup.cpp","../UsageEnvironment/UsageEnvironment.cpp"]}],"fullName":"libBasicUsageEnvironment.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"BasicUsageEnvironment","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/groupsock","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","defines":["groupsock_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/../UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/../BasicUsageEnvironment/include"}],"isGenerated":false,"language":"C","sources":["inet.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["groupsock_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/../UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/../BasicUsageEnvironment/include"}],"isGenerated":false,"language":"CXX","sources":["GroupEId.cpp","Groupsock.cpp","GroupsockHelper.cpp","IOHandlers.cpp","NetAddress.cpp","NetInterface.cpp","../BasicUsageEnvironment/BasicHashTable.cpp","../UsageEnvironment/strDup.cpp","../UsageEnvironment/HashTable.cpp"]}],"fullName":"libgroupsock.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"groupsock","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/liveMedia","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -D LOCALE_NOT_USED","defines":["liveMedia_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../groupsock/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../BasicUsageEnvironment/include"}],"isGenerated":false,"language":"C","sources":["rtcp_from_spec.c","../groupsock/inet.c"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -D LOCALE_NOT_USED","defines":["liveMedia_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../groupsock/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/../BasicUsageEnvironment/include"}],"isGenerated":false,"language":"CXX","sources":["AC3AudioFileServerMediaSubsession.cpp","AC3AudioRTPSink.cpp","AC3AudioRTPSource.cpp","AC3AudioStreamFramer.cpp","ADTSAudioFileServerMediaSubsession.cpp","ADTSAudioFileSource.cpp","AMRAudioFileServerMediaSubsession.cpp","AMRAudioFileSink.cpp","AMRAudioFileSource.cpp","AMRAudioRTPSink.cpp","AMRAudioRTPSource.cpp","AMRAudioSource.cpp","AVIFileSink.cpp","AudioInputDevice.cpp","AudioRTPSink.cpp","Base64.cpp","BasicUDPSink.cpp","BasicUDPSource.cpp","BitVector.cpp","ByteStreamFileSource.cpp","ByteStreamMemoryBufferSource.cpp","ByteStreamMultiFileSource.cpp","DVVideoFileServerMediaSubsession.cpp","DVVideoRTPSink.cpp","DVVideoRTPSource.cpp","DVVideoStreamFramer.cpp","DeviceSource.cpp","DigestAuthentication.cpp","EBMLNumber.cpp","FileServerMediaSubsession.cpp","FileSink.cpp","FramedFileSource.cpp","FramedFilter.cpp","FramedSource.cpp","GSMAudioRTPSink.cpp","GenericMediaServer.cpp","H261VideoRTPSource.cpp","H263plusVideoFileServerMediaSubsession.cpp","H263plusVideoRTPSink.cpp","H263plusVideoRTPSource.cpp","H263plusVideoStreamFramer.cpp","H263plusVideoStreamParser.cpp","H264VideoFileServerMediaSubsession.cpp","H264VideoFileSink.cpp","H264VideoRTPSink.cpp","H264VideoRTPSource.cpp","H264VideoStreamDiscreteFramer.cpp","H264VideoStreamFramer.cpp","H264or5VideoFileSink.cpp","H264or5VideoRTPSink.cpp","H264or5VideoStreamDiscreteFramer.cpp","H264or5VideoStreamFramer.cpp","H265VideoFileServerMediaSubsession.cpp","H265VideoFileSink.cpp","H265VideoRTPSink.cpp","H265VideoRTPSource.cpp","H265VideoStreamDiscreteFramer.cpp","H265VideoStreamFramer.cpp","InputFile.cpp","JPEG2000VideoRTPSink.cpp","JPEG2000VideoRTPSource.cpp","JPEGVideoRTPSink.cpp","JPEGVideoRTPSource.cpp","JPEGVideoSource.cpp","Locale.cpp","MP3ADU.cpp","MP3ADURTPSink.cpp","MP3ADURTPSource.cpp","MP3ADUTranscoder.cpp","MP3ADUdescriptor.cpp","MP3ADUinterleaving.cpp","MP3AudioFileServerMediaSubsession.cpp","MP3AudioMatroskaFileServerMediaSubsession.cpp","MP3FileSource.cpp","MP3Internals.cpp","MP3InternalsHuffman.cpp","MP3InternalsHuffmanTable.cpp","MP3StreamState.cpp","MP3Transcoder.cpp","MPEG1or2AudioRTPSink.cpp","MPEG1or2AudioRTPSource.cpp","MPEG1or2AudioStreamFramer.cpp","MPEG1or2Demux.cpp","MPEG1or2DemuxedElementaryStream.cpp","MPEG1or2DemuxedServerMediaSubsession.cpp","MPEG1or2FileServerDemux.cpp","MPEG1or2VideoFileServerMediaSubsession.cpp","MPEG1or2VideoRTPSink.cpp","MPEG1or2VideoRTPSource.cpp","MPEG1or2VideoStreamDiscreteFramer.cpp","MPEG1or2VideoStreamFramer.cpp","MPEG2IndexFromTransportStream.cpp","MPEG2TransportFileServerMediaSubsession.cpp","MPEG2TransportStreamAccumulator.cpp","MPEG2TransportStreamFramer.cpp","MPEG2TransportStreamFromESSource.cpp","MPEG2TransportStreamFromPESSource.cpp","MPEG2TransportStreamIndexFile.cpp","MPEG2TransportStreamMultiplexor.cpp","MPEG2TransportStreamTrickModeFilter.cpp","MPEG2TransportUDPServerMediaSubsession.cpp","MPEG4ESVideoRTPSink.cpp","MPEG4ESVideoRTPSource.cpp","MPEG4GenericRTPSink.cpp","MPEG4GenericRTPSource.cpp","MPEG4LATMAudioRTPSink.cpp","MPEG4LATMAudioRTPSource.cpp","MPEG4VideoFileServerMediaSubsession.cpp","MPEG4VideoStreamDiscreteFramer.cpp","MPEG4VideoStreamFramer.cpp","MPEGVideoStreamFramer.cpp","MPEGVideoStreamParser.cpp","MatroskaDemuxedTrack.cpp","MatroskaFile.cpp","MatroskaFileParser.cpp","MatroskaFileServerDemux.cpp","MatroskaFileServerMediaSubsession.cpp","Media.cpp","MediaSession.cpp","MediaSink.cpp","MediaSource.cpp","MultiFramedRTPSink.cpp","MultiFramedRTPSource.cpp","OggDemuxedTrack.cpp","OggFile.cpp","OggFileParser.cpp","OggFileServerDemux.cpp","OggFileServerMediaSubsession.cpp","OggFileSink.cpp","OnDemandServerMediaSubsession.cpp","OutputFile.cpp","PassiveServerMediaSubsession.cpp","ProxyServerMediaSession.cpp","QCELPAudioRTPSource.cpp","QuickTimeFileSink.cpp","QuickTimeGenericRTPSource.cpp","RTCP.cpp","RTPInterface.cpp","RTPSink.cpp","RTPSource.cpp","RTSPClient.cpp","RTSPCommon.cpp","RTSPRegisterSender.cpp","RTSPServer.cpp","RTSPServerRegister.cpp","RTSPServerSupportingHTTPStreaming.cpp","RawVideoRTPSink.cpp","RawVideoRTPSource.cpp","SIPClient.cpp","ServerMediaSession.cpp","SimpleRTPSink.cpp","SimpleRTPSource.cpp","StreamParser.cpp","StreamReplicator.cpp","T140TextRTPSink.cpp","TCPStreamSink.cpp","TextRTPSink.cpp","TheoraVideoRTPSink.cpp","TheoraVideoRTPSource.cpp","VP8VideoRTPSink.cpp","VP8VideoRTPSource.cpp","VP9VideoRTPSink.cpp","VP9VideoRTPSource.cpp","VideoRTPSink.cpp","VorbisAudioRTPSink.cpp","VorbisAudioRTPSource.cpp","WAVAudioFileServerMediaSubsession.cpp","WAVAudioFileSource.cpp","ourMD5.cpp","uLawAudioFilter.cpp","../UsageEnvironment/HashTable.cpp","../UsageEnvironment/strDup.cpp","../groupsock/GroupsockHelper.cpp","../groupsock/Groupsock.cpp","../groupsock/NetAddress.cpp","../groupsock/NetInterface.cpp","../groupsock/GroupEId.cpp","../BasicUsageEnvironment/BasicHashTable.cpp"]}],"fullName":"libliveMedia.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so -latomic -lm","linkerLanguage":"CXX","name":"liveMedia","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/UsageEnvironment","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["UsageEnvironment_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/../BasicUsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/../groupsock/include"}],"isGenerated":false,"language":"CXX","sources":["HashTable.cpp","UsageEnvironment.cpp","strDup.cpp","../BasicUsageEnvironment/BasicHashTable.cpp"]}],"fullName":"libUsageEnvironment.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"UsageEnvironment","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClient.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/RtspClient","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["RtspClient_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/../liveMedia/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/../BasicUsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/../UsageEnvironment/include"},{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/../groupsock/include"}],"isGenerated":false,"language":"CXX","sources":["TsRtspNative.cpp","../../jni/TsRtspNativeJni.cpp"]}],"fullName":"libRtspClient.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so ../../../../../../../../libs/arm64-v8a/libBasicUsageEnvironment.so ../../../../../../../../libs/arm64-v8a/libgroupsock.so ../../../../../../../../libs/arm64-v8a/libliveMedia.so ../../../../../../../../libs/arm64-v8a/libUsageEnvironment.so /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so -latomic -lm","linkerLanguage":"CXX","name":"RtspClient","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClientJni.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/jni","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["RtspClientJni_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni/../cpp/RtspClient/include"}],"isGenerated":false,"language":"CXX","sources":["TsRtspNativeJni.cpp"]}],"fullName":"libRtspClientJni.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-landroid /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so ../../../../../../../libs/arm64-v8a/libRtspClient.so ../../../../../../../libs/arm64-v8a/libBasicUsageEnvironment.so ../../../../../../../libs/arm64-v8a/libgroupsock.so ../../../../../../../libs/arm64-v8a/libliveMedia.so /home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/27/liblog.so ../../../../../../../libs/arm64-v8a/libUsageEnvironment.so -latomic -lm","linkerLanguage":"CXX","name":"RtspClientJni","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"}]},{"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","name":"YUV","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","targets":[{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/libyuv.a"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_dspr2.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_dspr2.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_dspr2.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.a","linkerLanguage":"CXX","name":"yuv","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"STATIC_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuv.so"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC  ","defines":["yuv_shared_EXPORTS"],"includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["source/compare.cc","source/compare_common.cc","source/compare_gcc.cc","source/compare_neon.cc","source/compare_neon64.cc","source/compare_win.cc","source/convert.cc","source/convert_argb.cc","source/convert_from.cc","source/convert_from_argb.cc","source/convert_jpeg.cc","source/convert_to_argb.cc","source/convert_to_i420.cc","source/cpu_id.cc","source/mjpeg_decoder.cc","source/mjpeg_validate.cc","source/planar_functions.cc","source/rotate.cc","source/rotate_any.cc","source/rotate_argb.cc","source/rotate_common.cc","source/rotate_dspr2.cc","source/rotate_gcc.cc","source/rotate_msa.cc","source/rotate_neon.cc","source/rotate_neon64.cc","source/rotate_win.cc","source/row_any.cc","source/row_common.cc","source/row_dspr2.cc","source/row_gcc.cc","source/row_msa.cc","source/row_neon.cc","source/row_neon64.cc","source/row_win.cc","source/scale.cc","source/scale_any.cc","source/scale_argb.cc","source/scale_common.cc","source/scale_dspr2.cc","source/scale_gcc.cc","source/scale_msa.cc","source/scale_neon.cc","source/scale_neon64.cc","source/scale_win.cc","source/video_common.cc"]}],"fullName":"libyuv.so","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"yuv_shared","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/yuvconvert"],"buildDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIE  ","includePath":[{"path":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/include"}],"isGenerated":false,"language":"CXX","sources":["util/yuvconvert.cc"]}],"fullName":"yuvconvert","linkFlags":"-Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,--gc-sections","linkLanguageFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info","linkLibraries":"libyuv.a -latomic -lm","linkerLanguage":"CXX","name":"yuvconvert","sourceDirectory":"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv","sysroot":"/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot","type":"EXECUTABLE"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

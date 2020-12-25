@@ -1,0 +1,119 @@
+{
+  "buildFiles": [
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CM_linux_packages.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libbitmap/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/CMakeLists.txt",
+    "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/CMakeLists.txt",
+    "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yuvconvert-Debug-arm64-v8a": {
+      "artifactName": "yuvconvert",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuvconvert",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/yuvconvert",
+      "runtimeFiles": []
+    },
+    "yuvutil-Debug-arm64-v8a": {
+      "artifactName": "yuvutil",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuvutil",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuvutil.so",
+      "runtimeFiles": []
+    },
+    "RtspClientJni-Debug-arm64-v8a": {
+      "artifactName": "RtspClientJni",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" RtspClientJni",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClientJni.so",
+      "runtimeFiles": [
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClient.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so"
+      ]
+    },
+    "yuv-Debug-arm64-v8a": {
+      "artifactName": "yuv",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuv",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/libyuv.a",
+      "runtimeFiles": []
+    },
+    "groupsock-Debug-arm64-v8a": {
+      "artifactName": "groupsock",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" groupsock",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+      "runtimeFiles": []
+    },
+    "UsageEnvironment-Debug-arm64-v8a": {
+      "artifactName": "UsageEnvironment",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" UsageEnvironment",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so",
+      "runtimeFiles": []
+    },
+    "bitmaputil-Debug-arm64-v8a": {
+      "artifactName": "bitmaputil",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" bitmaputil",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libbitmaputil.so",
+      "runtimeFiles": []
+    },
+    "RtspClient-Debug-arm64-v8a": {
+      "artifactName": "RtspClient",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" RtspClient",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClient.so",
+      "runtimeFiles": [
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so"
+      ]
+    },
+    "liveMedia-Debug-arm64-v8a": {
+      "artifactName": "liveMedia",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" liveMedia",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+      "runtimeFiles": []
+    },
+    "yuv_shared-Debug-arm64-v8a": {
+      "artifactName": "yuv_shared",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuv_shared",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuv.so",
+      "runtimeFiles": []
+    },
+    "affinitylib-Debug-arm64-v8a": {
+      "artifactName": "affinitylib",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" affinitylib",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libaffinitylib.so",
+      "runtimeFiles": []
+    },
+    "BasicUsageEnvironment-Debug-arm64-v8a": {
+      "artifactName": "BasicUsageEnvironment",
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" BasicUsageEnvironment",
+      "abi": "arm64-v8a",
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+      "runtimeFiles": []
+    }
+  }
+}

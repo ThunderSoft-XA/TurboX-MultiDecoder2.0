@@ -1,0 +1,1724 @@
+{
+  "stringTable": {
+    "0": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Daffinitylib_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dbitmaputil_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dyuvutil_EXPORTS -I../../../../src/main/cpp/libyuv/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "4": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../src/main/cpp/libyuv/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "5": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dyuv_shared_EXPORTS -I../../../../src/main/cpp/libyuv/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "6": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -I../../../../src/main/cpp/libyuv/libyuv/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIE",
+    "7": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DBasicUsageEnvironment_EXPORTS -I../../../../src/main/cpp/BasicUsageEnvironment/include -I../../../../src/main/cpp/BasicUsageEnvironment/../groupsock/include -I../../../../src/main/cpp/BasicUsageEnvironment/../UsageEnvironment/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "8": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dgroupsock_EXPORTS -I../../../../src/main/cpp/groupsock/include -I../../../../src/main/cpp/groupsock/../UsageEnvironment/include -I../../../../src/main/cpp/groupsock/../BasicUsageEnvironment/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "9": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dgroupsock_EXPORTS -I../../../../src/main/cpp/groupsock/include -I../../../../src/main/cpp/groupsock/../UsageEnvironment/include -I../../../../src/main/cpp/groupsock/../BasicUsageEnvironment/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "10": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DliveMedia_EXPORTS -I../../../../src/main/cpp/liveMedia/include -I../../../../src/main/cpp/liveMedia/../groupsock/include -I../../../../src/main/cpp/liveMedia/../UsageEnvironment/include -I../../../../src/main/cpp/liveMedia/../BasicUsageEnvironment/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC -D LOCALE_NOT_USED",
+    "11": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DliveMedia_EXPORTS -I../../../../src/main/cpp/liveMedia/include -I../../../../src/main/cpp/liveMedia/../groupsock/include -I../../../../src/main/cpp/liveMedia/../UsageEnvironment/include -I../../../../src/main/cpp/liveMedia/../BasicUsageEnvironment/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -D LOCALE_NOT_USED",
+    "12": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DUsageEnvironment_EXPORTS -I../../../../src/main/cpp/UsageEnvironment/include -I../../../../src/main/cpp/UsageEnvironment/../BasicUsageEnvironment/include -I../../../../src/main/cpp/UsageEnvironment/../groupsock/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "13": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DRtspClient_EXPORTS -I../../../../src/main/cpp/RtspClient/include -I../../../../src/main/cpp/RtspClient/../liveMedia/include -I../../../../src/main/cpp/RtspClient/../BasicUsageEnvironment/include -I../../../../src/main/cpp/RtspClient/../UsageEnvironment/include -I../../../../src/main/cpp/RtspClient/../groupsock/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC",
+    "14": "--target=aarch64-none-linux-android27 --gcc-toolchain=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DRtspClientJni_EXPORTS -I../../../../src/main/jni/../cpp/RtspClient/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CM_linux_packages.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libbitmap/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/CMakeLists.txt",
+    "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/CMakeLists.txt",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/CMakeLists.txt",
+    "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yuvconvert-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuvconvert",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "yuvconvert",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/util/yuvconvert.cc",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/yuvconvert",
+      "runtimeFiles": []
+    },
+    "yuvutil-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuvutil",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "yuvutil",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/YuvConvert.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/YuvJni.cpp",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuvutil.so",
+      "runtimeFiles": []
+    },
+    "RtspClientJni-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" RtspClientJni",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "RtspClientJni",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni/TsRtspNativeJni.cpp",
+          "flagsOrdinal": 14,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClientJni.so",
+      "runtimeFiles": [
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClient.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so"
+      ]
+    },
+    "yuv-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuv",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "yuv",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_from.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_from_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_jpeg.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_to_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_to_i420.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/cpu_id.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/mjpeg_decoder.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/mjpeg_validate.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/planar_functions.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/video_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a/src/main/cpp/libyuv/build/libyuv.a",
+      "runtimeFiles": []
+    },
+    "groupsock-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" groupsock",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "groupsock",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/inet.c",
+          "flagsOrdinal": 11,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/GroupEId.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/Groupsock.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/GroupsockHelper.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/IOHandlers.cpp",
+          "flagsOrdinal": 8,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/NetAddress.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/NetInterface.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicHashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/strDup.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/HashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+      "runtimeFiles": []
+    },
+    "UsageEnvironment-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" UsageEnvironment",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "UsageEnvironment",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/HashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/UsageEnvironment.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/strDup.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicHashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so",
+      "runtimeFiles": []
+    },
+    "bitmaputil-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" bitmaputil",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "bitmaputil",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libbitmap/BitmapJni.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libbitmaputil.so",
+      "runtimeFiles": []
+    },
+    "RtspClient-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" RtspClient",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "RtspClient",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/RtspClient/TsRtspNative.cpp",
+          "flagsOrdinal": 13,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/jni/TsRtspNativeJni.cpp",
+          "flagsOrdinal": 14,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libRtspClient.so",
+      "runtimeFiles": [
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libgroupsock.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+        "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libUsageEnvironment.so"
+      ]
+    },
+    "liveMedia-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" liveMedia",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "liveMedia",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/rtcp_from_spec.c",
+          "flagsOrdinal": 11,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/inet.c",
+          "flagsOrdinal": 11,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AC3AudioFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AC3AudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AC3AudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AC3AudioStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ADTSAudioFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ADTSAudioFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AMRAudioSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AVIFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AudioInputDevice.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/AudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/Base64.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/BasicUDPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/BasicUDPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/BitVector.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ByteStreamFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ByteStreamMemoryBufferSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ByteStreamMultiFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DVVideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DVVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DVVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DVVideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DeviceSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/DigestAuthentication.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/EBMLNumber.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/FileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/FileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/FramedFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/FramedFilter.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/FramedSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/GSMAudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/GenericMediaServer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H261VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H263plusVideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H263plusVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H263plusVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H263plusVideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H263plusVideoStreamParser.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoStreamDiscreteFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264VideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264or5VideoFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264or5VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264or5VideoStreamDiscreteFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H264or5VideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoStreamDiscreteFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/H265VideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/InputFile.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/JPEG2000VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/JPEG2000VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/JPEGVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/JPEGVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/JPEGVideoSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/Locale.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADU.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADURTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADURTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADUTranscoder.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADUdescriptor.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3ADUinterleaving.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3AudioFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3FileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3Internals.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3InternalsHuffman.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3InternalsHuffmanTable.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3StreamState.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MP3Transcoder.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2AudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2AudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2AudioStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2Demux.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2DemuxedElementaryStream.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2FileServerDemux.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG1or2VideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2IndexFromTransportStream.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamAccumulator.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamFromESSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamFromPESSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamIndexFile.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamMultiplexor.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4ESVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4ESVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4GenericRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4GenericRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4LATMAudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4LATMAudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEG4VideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEGVideoStreamFramer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MPEGVideoStreamParser.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MatroskaDemuxedTrack.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MatroskaFile.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MatroskaFileParser.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MatroskaFileServerDemux.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MatroskaFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/Media.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MediaSession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MediaSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MediaSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MultiFramedRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/MultiFramedRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggDemuxedTrack.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggFile.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggFileParser.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggFileServerDemux.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OggFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OnDemandServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/OutputFile.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/PassiveServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ProxyServerMediaSession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/QCELPAudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/QuickTimeFileSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/QuickTimeGenericRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTCP.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTPInterface.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPClient.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPCommon.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPRegisterSender.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPServer.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPServerRegister.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RTSPServerSupportingHTTPStreaming.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RawVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/RawVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/SIPClient.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ServerMediaSession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/SimpleRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/SimpleRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/StreamParser.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/StreamReplicator.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/T140TextRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/TCPStreamSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/TextRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/TheoraVideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/TheoraVideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VP8VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VP8VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VP9VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VP9VideoRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VideoRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VorbisAudioRTPSink.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/VorbisAudioRTPSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/WAVAudioFileServerMediaSubsession.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/WAVAudioFileSource.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/ourMD5.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/liveMedia/uLawAudioFilter.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/HashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/strDup.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/GroupsockHelper.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/Groupsock.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/NetAddress.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/NetInterface.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/groupsock/GroupEId.cpp",
+          "flagsOrdinal": 10,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicHashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libliveMedia.so",
+      "runtimeFiles": []
+    },
+    "yuv_shared-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" yuv_shared",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "yuv_shared",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/compare_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_from.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_from_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_jpeg.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_to_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/convert_to_i420.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/cpu_id.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/mjpeg_decoder.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/mjpeg_validate.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/planar_functions.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/rotate_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/row_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_any.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_argb.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_dspr2.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_gcc.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_msa.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_neon.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_neon64.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/scale_win.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/libyuv/libyuv/source/video_common.cc",
+          "flagsOrdinal": 5,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libyuv.so",
+      "runtimeFiles": []
+    },
+    "affinitylib-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" affinitylib",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "affinitylib",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/Affinity/AffinityC.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libaffinitylib.so",
+      "runtimeFiles": []
+    },
+    "BasicUsageEnvironment-Debug-arm64-v8a": {
+      "buildCommand": "/home/yuandekun/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/.cxx/cmake/debug/arm64-v8a\" BasicUsageEnvironment",
+      "buildType": "debug",
+      "toolchain": "2388468416",
+      "abi": "arm64-v8a",
+      "artifactName": "BasicUsageEnvironment",
+      "files": [
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicHashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicTaskScheduler.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicTaskScheduler0.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicUsageEnvironment.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/BasicUsageEnvironment0.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/BasicUsageEnvironment/DelayQueue.cpp",
+          "flagsOrdinal": 7,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/HashTable.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/strDup.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/src/main/cpp/UsageEnvironment/UsageEnvironment.cpp",
+          "flagsOrdinal": 12,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/home/yuandekun/Flamingo Demo/App_dev/TurboX-MultiDecoder2.0/app/libs/arm64-v8a/libBasicUsageEnvironment.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2388468416": {
+      "cCompilerExecutable": "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/yuandekun/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc",
+    "cpp"
+  ]
+}
